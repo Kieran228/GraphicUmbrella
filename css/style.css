@@ -1,7 +1,44 @@
 .graphicColor {
     margin-right: -6px;
-};
-
-.header-text h6 small {
-    font-size: 12px
 }
+
+@media (min-width: 576px) {
+    .tree-img {
+        position: relative;
+        float: inline-end;
+    }
+    .logo-img {
+        padding-right: 20px;
+    }
+    .hero-img {
+        margin-left: 70px;
+        padding-top: 5px;
+    }
+    .hero-text {
+        align-content: center;
+        text-align-last: center;
+        font-size: 15px;
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-text {
+        font-size: 17px;
+        position: relative;
+        bottom: 28px;
+    }
+}
+
+.navbar ul {
+    display: inline-flex;
+    list-style: none;
+    font-size: 10px;
+}
+
+.navbar li {
+    margin-right: 10px;
+}
+
+
