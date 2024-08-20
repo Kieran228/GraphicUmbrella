@@ -21,6 +21,15 @@
         position: relative;
         bottom: 20px;
     }
+    .portfolio-header-text {
+        font-size: 25px;
+    }
+    .top-container-column1-fillertext, .top-container-column2-fillertext, .bottom-container-column1-fillertext, .bottom-container-column2-fillertext {
+        font-size: 10px;
+    }
+    .major-advertisers-header-text {
+        font-size: 25px;
+    }
 }
 
 @media (min-width: 768px) {
