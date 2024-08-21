@@ -3,6 +3,9 @@
 }
 
 @media (min-width: 576px) {
+    .navbar li {
+        font-size: 15px;
+    }
     .tree-img {
         position: relative;
         float: inline-end;
@@ -17,7 +20,7 @@
     .hero-text {
         align-content: center;
         text-align-last: center;
-        font-size: 15px;
+        font-size: 10px;
         position: relative;
         bottom: 20px;
     }
@@ -40,6 +43,16 @@
     }
 }
 
+@media (min-width: 1200px) {
+    .hero-img {
+        margin-left: 200px;
+        padding-top: 5px;
+    }
+    .hero-text {
+        font-size: 26px;
+    }
+}
+
 .navbar ul {
     display: inline-flex;
     list-style: none;
@@ -50,4 +63,25 @@
     margin-right: 10px;
 }
 
+.amazing-column img, .Availability-column img, .web-column img, .mobile-column img {
+    height: 75px;
+    width: 75px;
+}
+
+.top-container-column-1-header, .top-container-column-2-header, .bottom-container-column-1-header, .bottom-container-column-2-header {
+    font-size: 20px;
+}
+
+.top-column-1-buttons, .top-column-2-buttons, .bottom-column-1-buttons, .bottom-column-2-buttons {
+    font-size: 10px;
+}
+
+.litle-about-us-header p, .archives-header p, .CONTACT-US-header p, .newsletter-header p {
+    font-size: 20px;
+}
+
+.business-cards-img img, .moo-minicards img, .say-in-print-img img, .Graphics-img img {
+    height: 120;
+    width: 120;
+}
 
