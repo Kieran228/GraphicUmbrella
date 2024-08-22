@@ -4,7 +4,7 @@
 
 @media (min-width: 576px) {
     .navbar li {
-        font-size: 15px;
+        font-size: 14px;
     }
     .tree-img {
         position: relative;
@@ -27,6 +27,7 @@
     .top-container-column1-fillertext, .top-container-column2-fillertext, .bottom-container-column1-fillertext, .bottom-container-column2-fillertext {
         font-size: 10px;
     }
+
 }
 
 @media (min-width: 768px) {
@@ -71,7 +72,17 @@
     font-size: 10px;
 }
 
+.bottom-navbar ul {
+    display: inline-flex;
+    list-style: none;
+    font-size: 10px;
+}
+
 .navbar li {
+    margin-right: 10px;
+}
+
+.bottom-navbar li {
     margin-right: 10px;
 }
 
