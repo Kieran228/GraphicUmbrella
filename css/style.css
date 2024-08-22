@@ -24,14 +24,8 @@
         position: relative;
         bottom: 20px;
     }
-    .portfolio-header-text {
-        font-size: 25px;
-    }
     .top-container-column1-fillertext, .top-container-column2-fillertext, .bottom-container-column1-fillertext, .bottom-container-column2-fillertext {
         font-size: 10px;
-    }
-    .major-advertisers-header-text {
-        font-size: 25px;
     }
 }
 
@@ -40,6 +34,9 @@
         font-size: 17px;
         position: relative;
         bottom: 28px;
+    }
+    .email {
+        font-size: 13px;
     }
 }
 
@@ -51,6 +48,21 @@
     .hero-text {
         font-size: 26px;
     }
+    .top-container-column1-fillertext, .top-container-column2-fillertext, .bottom-container-column1-fillertext, .bottom-container-column2-fillertext {
+        font-size: 15px;
+    }
+}
+
+.portfolio-header-text {
+    font-size: 25px;
+}
+
+.major-advertisers-header-text {
+    font-size: 25px;
+}
+
+.follow-us {
+    font-size: 20px;
 }
 
 .navbar ul {
@@ -74,6 +86,10 @@
 
 .top-column-1-buttons, .top-column-2-buttons, .bottom-column-1-buttons, .bottom-column-2-buttons {
     font-size: 10px;
+}
+
+.top-column-1-buttons button, .top-column-2-buttons button, .bottom-column-1-buttons button, .bottom-column-2-buttons button {
+    border-radius: 8px;
 }
 
 .litle-about-us-header p, .archives-header p, .CONTACT-US-header p, .newsletter-header p {
