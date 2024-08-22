@@ -31,6 +31,9 @@
 }
 
 @media (min-width: 768px) {
+    .navbar li {
+        font-size: 14px;
+    }
     .hero-text {
         font-size: 17px;
         position: relative;
@@ -42,6 +45,9 @@
 }
 
 @media (min-width: 1200px) {
+    .navbar li {
+        font-size: 15px;
+    }
     .hero-img {
         margin-left: 200px;
         padding-top: 5px;
@@ -69,7 +75,7 @@
 .navbar ul {
     display: inline-flex;
     list-style: none;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 .bottom-navbar ul {
