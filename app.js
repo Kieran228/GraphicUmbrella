@@ -75,6 +75,8 @@ function stylingText() {
 
 serviceImageOne.addEventListener("click", stylingText);
 
+
+//* Navbar
 let serviceImageTwo = document.querySelector(".mobile-icon img")
 
 let navbarLinks = document.querySelectorAll(".navbar a")
@@ -130,3 +132,73 @@ function changeMinicardsFont() {
 console.log(minicardImg)
 
 minicardImg.addEventListener("click", changeMinicardsFont)
+//**********************************************************/
+
+//? Input Boxes
+//? Grabbing Values from html divs (ex: id: "name" in first form group)
+//* This code affects the name textbox on the website.
+let inputName = document.getElementById("name")
+//* Created these variables to save input values from form box textbox.
+let savedInfo = ""
+
+console.log(inputName)
+
+//* The anonymous function (() => {}) allows you to use a function as a parameter (function greeting(hello, () => {})) 
+inputName.addEventListener("input", () => {
+
+
+    savedInfo = inputName.value;
+    console.log(savedInfo)
+})
+
+//* 2nd option on saving information from an input textbox
+
+//* This variable is being used to grab the input value from the email form in html with the id "email".
+let inputEmail = document.querySelector("#email")
+//* This variable is being set to the button in html, and will be used later to add event listeners to.
+let subscriberButton = document.querySelector(".subscribe button")
+let savedEmailInfo = "";
+//* created an anonymous function as the parameter to save the users input to a variable, reset the value, and then console the input.
+subscriberButton.addEventListener("click", () => {
+    savedEmailInfo = inputEmail.value;
+    //* Clearing the textbox value
+    inputEmail.value = ""
+    console.log(savedEmailInfo)
+})
+
+//? Saving a list of personal information
+//* creating and empty array to store user information
+let subscribeList = [];
+//* creating an object with subscriber properties to push into the array
+let personInfo = {
+    name: "",
+    email: "" 
+};
+
+
+//* created a button variable set to the button in html with the class name "subscribe". We will add event listeners to this variable
+let subscribeButton = document.querySelector(".subscribe button");
+console.log(subscribeButton);
+
+// function grabNewsLetterInfo() {
+       //* These variables are being set to each html textbox
+//     let inputName = document.querySelector("#name");
+//     let inputEmail = document.querySelector("#email");
+
+       //* Setting the object's values to the user's input
+//     personInfo.name = inputName.value;
+//     personInfo.email = inputEmail.value;
+//     console.log(personInfo)
+
+       //* pushing the new object with updated data into the array.
+//     subscribeList.push(personInfo)
+//     console.log(subscribeList)
+
+//     //? Clearing out the input boxes
+//     inputName = "";
+//     inputEmail = "";
+// }
+
+//* updated subscribe button with new functionality
+// subscribeButton.addEventListener("click", grabNewsLetterInfo)
+
